@@ -33,13 +33,13 @@ Specifically, this project implemented QLoRA-style fine tuning using 4-bit NF4 q
 
 ## Model Pipeline
 Base Mistral-7B Model
-↓
+->
 4-bit Quantization (NF4)
-↓
+->
 LoRA Fine-Tuning
-↓
+->
 Optimized Batched Inference
-↓
+->
 Local Deployment
 
 ## Optimizations Implemented
