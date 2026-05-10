@@ -7,7 +7,7 @@ Specifically, this project implemented QLoRA-style fine tuning using 4-bit NF4 q
 ## Hardware used 
 - NVIDIA GeForce RTX 3060 (12GB GDDR6 VRAM)
 - Intel i5-11400/F (2.60 GHz base, 4.40 GHz boost)
-- 16GB RAM
+- 16GB RAM (32GB recommended)
 - 500 GB SSD
 - 1 TB HDD
 (It should be noted that you do not need that much space for the model)
