@@ -31,6 +31,16 @@ Specifically, this project implemented QLoRA-style fine tuning using 4-bit NF4 q
 - CUDA
 - Mistral-7B
 
+## Optimizations Implemented
+### Quantization
+Implemented 4-bit NF4 quantization to reduce VRAM usage.
+### LoRA Fine-Tuning
+Used parameter efficient fine tuning to reduce training costs and memory requirements.
+### Batched Inference
+Developed multi prompt batching support to improve output and increase GPU utilization.
+### CUDA Optimization
+Configured GPU acceleration and optimized tensor handling for faster performance.
+
 ## Model Pipeline
 Base Mistral-7B Model
 ->
@@ -41,13 +51,3 @@ LoRA Fine-Tuning
 Optimized Batched Inference
 ->
 Local Deployment
-
-## Optimizations Implemented
-### Quantization
-Implemented 4-bit NF4 quantization to reduce VRAM usage.
-### LoRA Fine-Tuning
-Used parameter efficient fine tuning to reduce training costs and memory requirements.
-### Batched Inference
-Developed multi prompt batching support to improve output and increase GPU utilization.
-### CUDA Optimization
-Configured GPU acceleration and optimized tensor handling for faster performance.
