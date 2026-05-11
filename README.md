@@ -23,11 +23,13 @@ Specifically, this project implemented QLoRA-style fine tuning using 4-bit NF4 q
 - GPU acceleration with CUDA
   
 ## Data Collection
--Used data from live streamers
+-Used data from youtube transcripts
+-423 total training prompts 
 
--Example training prompt:
+-Example training prompt (First message is user input, second message is LLM expected output):
 
-{"messages":[{"role":"user","content":"Except for him."},{"role":"assistant","content":"No. Even the people you doubt the most still have room to grow."}]}
+{"messages":[{"role":"user","content":"message here"},{"role":"assistant","content":"message here"}]}
+
 
 ## Technologies Used
 - Python
