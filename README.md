@@ -25,7 +25,9 @@ Specifically, this project implemented QLoRA-style fine tuning using 4-bit NF4 q
 ## Data Collection
 -Used data from live streamers
 -Example training prompt
--{"messages":[{"role":"user","content":"Except for him."},{"role":"assistant","content":"No. Even the people you doubt the most still have room to grow."}]}
+
+{"messages":[{"role":"user","content":"Except for him."},{"role":"assistant","content":"No. Even the people you doubt the most still have room to grow."}]}
+
 ## Technologies Used
 - Python
 - PyTorch
