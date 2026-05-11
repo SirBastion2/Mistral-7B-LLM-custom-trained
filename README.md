@@ -2,8 +2,6 @@
 
 This project is focused on using the Mistral-7B LLM model for custom training. Explores methods for reducing computational requirements while maintaining high-quality text generation performance.
 
-Specifically, this project implemented QLoRA-style fine tuning using 4-bit NF4 quantization and low-rank adaptation (LoRA).
-
 ## Hardware used 
 - NVIDIA GeForce RTX 3060 (12GB GDDR6 VRAM)
 - Intel i5-11400/F (2.60 GHz base, 4.40 GHz boost)
