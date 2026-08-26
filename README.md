@@ -1,6 +1,6 @@
 # Mistral-7B LLM Custom Training
 
-This project explores custom fine-tuning of the Mistral-7B language model on consumer hardware, with a focus on reducing computational and memory requirements while maintaining high-quality text generation.
+This project explores custom fine tuning of the Mistral-7B language model on consumer hardware, with a focus on reducing computational and memory requirements while maintaining high-quality text generation.
 
 ## Overview
 
